@@ -25,3 +25,4 @@
 scripts/*
 !scripts/*.sh
 !scripts/*.md
+license.xml

@@ -27,11 +27,11 @@ spec:
   values:
     replicaCount: 1
     container:
-      image: docker.sun.apim.ca/repository/docker-hosted/gateway                                      # Repository name, e.g docker.cluster1.example.com/repository/docker-hosted/gateway
-      tag: '6'                                       # Image tag version, e.g 1.0
+      image: docker.jupiter.apim.ca/repository/docker-hosted/gateway                                      # Repository name, e.g docker.cluster1.example.com/repository/docker-hosted/gateway
+      tag: '2'                                       # Image tag version, e.g 1.0
     imageCredentials:
       name: "admin"                               # Image credential name, e.g gateway.name-example01
-      registry: "docker.sun.apim.ca"                                   # Registry name, e.g docker.cluster1.example.com
+      registry: "docker.jupiter.apim.ca"                                   # Registry name, e.g docker.cluster1.example.com
       username: "admin"                               # Registry username, e.g dockerUser
     hazelcast:
       enabled: false
